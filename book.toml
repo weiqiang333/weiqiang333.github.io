@@ -2,7 +2,7 @@
 authors = ["weiqiang333"]
 language = "en"
 multilingual = false
-src = "src"
+src = "docs-src"
 title = "doumeng"
 
 [build]
