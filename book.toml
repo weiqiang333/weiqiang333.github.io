@@ -2,11 +2,14 @@
 authors = ["weiqiang333"]
 language = "en"
 multilingual = false
-src = "src"
+src = "docs-src"
 title = "doumeng"
+description = "GitHub: https://github.com/weiqiang333"
 
 [build]
 build-dir = "docs"
+create-missing = true
+use-default-preprocessors = true
 
 [output.html]
 curly-quotes = true
