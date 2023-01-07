@@ -1,0 +1,101 @@
+# HELP vollcloud_bandwidth_free_GB 宽带流量当月剩余总数 GB
+# TYPE vollcloud_bandwidth_free_GB gauge
+vollcloud_bandwidth_free_GB{hostname="doumeng",ip_address="3.3.3.3"} 745.6
+vollcloud_bandwidth_free_GB{hostname="doumeng",ip_address="3.3.3.3"} 638.15
+vollcloud_bandwidth_free_GB{hostname="doumeng",ip_address="3.3.3.3"} 386.11
+vollcloud_bandwidth_free_GB{hostname="doumeng",ip_address="3.3.3.3"} 0
+vollcloud_bandwidth_free_GB{hostname="doumeng",ip_address="3.3.3.3"} 0
+vollcloud_bandwidth_free_GB{hostname="doumeng",ip_address="3.3.3.3"} 8.28
+vollcloud_bandwidth_free_GB{hostname="doumeng",ip_address="3.3.3.3"} 643.35
+vollcloud_bandwidth_free_GB{hostname="hk-doumeng123",ip_address="3.3.3.3"} 1402.88
+vollcloud_bandwidth_free_GB{hostname="hk-doumeng123",ip_address="3.3.3.3"} 0
+vollcloud_bandwidth_free_GB{hostname="hk-doumeng123",ip_address=""} 0
+vollcloud_bandwidth_free_GB{hostname="hk-doumeng123",ip_address=""} 0
+vollcloud_bandwidth_free_GB{hostname="hk-doumeng123",ip_address=""} 0
+# HELP vollcloud_bandwidth_total_GB 宽带流量当月总数 GB
+# TYPE vollcloud_bandwidth_total_GB gauge
+vollcloud_bandwidth_total_GB{hostname="doumeng",ip_address="3.3.3.3"} 1000
+vollcloud_bandwidth_total_GB{hostname="doumeng",ip_address="3.3.3.3"} 1000
+vollcloud_bandwidth_total_GB{hostname="doumeng",ip_address="3.3.3.3"} 1000
+vollcloud_bandwidth_total_GB{hostname="doumeng",ip_address=""} 0
+vollcloud_bandwidth_total_GB{hostname="doumeng",ip_address=""} 0
+vollcloud_bandwidth_total_GB{hostname="doumeng",ip_address="3.3.3.3"} 1000
+vollcloud_bandwidth_total_GB{hostname="doumeng",ip_address="3.3.3.3"} 1000
+vollcloud_bandwidth_total_GB{hostname="hk-doumeng123",ip_address="3.3.3.3"} 1495.04
+vollcloud_bandwidth_total_GB{hostname="hk-doumeng123",ip_address=""} 0
+vollcloud_bandwidth_total_GB{hostname="hk-doumeng123",ip_address=""} 0
+vollcloud_bandwidth_total_GB{hostname="hk-doumeng123",ip_address=""} 0
+vollcloud_bandwidth_total_GB{hostname="hk-doumeng123",ip_address=""} 0
+# HELP vollcloud_bandwidth_usage 宽带流量使用百分比 %
+# TYPE vollcloud_bandwidth_usage gauge
+vollcloud_bandwidth_usage{hostname="doumeng",ip_address="3.3.3.3"} 25
+vollcloud_bandwidth_usage{hostname="doumeng",ip_address="3.3.3.3"} 36
+vollcloud_bandwidth_usage{hostname="doumeng",ip_address="3.3.3.3"} 61
+vollcloud_bandwidth_usage{hostname="doumeng",ip_address=""} 0
+vollcloud_bandwidth_usage{hostname="doumeng",ip_address=""} 0
+vollcloud_bandwidth_usage{hostname="doumeng",ip_address="3.3.3.3"} 99
+vollcloud_bandwidth_usage{hostname="doumeng",ip_address="3.3.3.3"} 36
+vollcloud_bandwidth_usage{hostname="hk-doumeng123",ip_address="3.3.3.3"} 6
+vollcloud_bandwidth_usage{hostname="hk-doumeng123",ip_address=""} 0
+vollcloud_bandwidth_usage{hostname="hk-doumeng123",ip_address=""} 0
+vollcloud_bandwidth_usage{hostname="hk-doumeng123",ip_address=""} 0
+vollcloud_bandwidth_usage{hostname="hk-doumeng123",ip_address=""} 0
+# HELP vollcloud_bandwidth_used_GB 宽带流量当月使用总数 GB
+# TYPE vollcloud_bandwidth_used_GB gauge
+vollcloud_bandwidth_used_GB{hostname="doumeng",ip_address="3.3.3.3"} 254.4
+vollcloud_bandwidth_used_GB{hostname="doumeng",ip_address="3.3.3.3"} 361.85
+vollcloud_bandwidth_used_GB{hostname="doumeng",ip_address="3.3.3.3"} 613.89
+vollcloud_bandwidth_used_GB{hostname="doumeng",ip_address=""} 0
+vollcloud_bandwidth_used_GB{hostname="doumeng",ip_address=""} 0
+vollcloud_bandwidth_used_GB{hostname="doumeng",ip_address="3.3.3.3"} 991.72
+vollcloud_bandwidth_used_GB{hostname="doumeng",ip_address="3.3.3.3"} 356.65
+vollcloud_bandwidth_used_GB{hostname="hk-doumeng123",ip_address="3.3.3.3"} 97.28
+vollcloud_bandwidth_used_GB{hostname="hk-doumeng123",ip_address=""} 0
+vollcloud_bandwidth_used_GB{hostname="hk-doumeng123",ip_address=""} 0
+vollcloud_bandwidth_used_GB{hostname="hk-doumeng123",ip_address=""} 0
+vollcloud_bandwidth_used_GB{hostname="hk-doumeng123",ip_address=""} 0
+# HELP vollcloud_node_online server run status value, Running=0 / Suspended=1
+# TYPE vollcloud_node_online gauge
+vollcloud_node_online{disk="10 GB",hostname="doumeng",ip_address="3.3.3.3",memory="512 MB",vm_type="kvm"} 1
+vollcloud_node_online{disk="10 GB",hostname="doumeng",ip_address="3.3.3.3",memory="512 MB",vm_type="kvm"} 1
+vollcloud_node_online{disk="10 GB",hostname="doumeng",ip_address="3.3.3.3",memory="512 MB",vm_type="kvm"} 1
+vollcloud_node_online{disk="10 GB",hostname="doumeng",ip_address="3.3.3.3",memory="1000 MB",vm_type=""} 0
+vollcloud_node_online{disk="10 GB",hostname="doumeng",ip_address="3.3.3.3",memory="512 MB",vm_type=""} 0
+vollcloud_node_online{disk="10 GB",hostname="doumeng",ip_address="3.3.3.3",memory="512 MB",vm_type="kvm"} 1
+vollcloud_node_online{disk="10 GB",hostname="doumeng",ip_address="3.3.3.3",memory="512 MB",vm_type="kvm"} 1
+vollcloud_node_online{disk="10 GB",hostname="doumeng",ip_address="3.3.3.3",memory="512 MB",vm_type="kvm"} 1
+vollcloud_node_online{disk="10 GB",hostname="doumeng",ip_address="3.3.3.3",memory="512 MB",vm_type=""} 0
+vollcloud_node_online{disk="10 GB",hostname="doumeng",ip_address="3.3.3.3",memory="1000 MB",vm_type=""} 0
+vollcloud_node_online{disk="10 GB",hostname="doumeng",ip_address="3.3.3.3",memory="1000 MB",vm_type=""} 0
+vollcloud_node_online{disk="10 GB",hostname="doumeng",ip_address="3.3.3.3",memory="1000 MB",vm_type=""} 0
+# HELP vollcloud_cost_usd 服务成本/USB
+# TYPE vollcloud_cost_usd gauge
+vollcloud_cost_usd{cost_cycle="day",date_end="2022-12-01",date_start="2022-11-30",hostname="doumeng",ip_address="3.3.3.3"} 0.24383561643835616
+vollcloud_cost_usd{cost_cycle="day",date_end="2022-12-01",date_start="2022-11-30",hostname="doumeng",ip_address="3.3.3.3"} 0.27123287671232876
+vollcloud_cost_usd{cost_cycle="day",date_end="2022-12-01",date_start="2022-11-30",hostname="doumeng",ip_address="3.3.3.3"} 0.40821917808219177
+vollcloud_cost_usd{cost_cycle="day",date_end="2022-12-01",date_start="2022-11-30",hostname="doumeng",ip_address="3.3.3.3"} 0.40821917808219177
+vollcloud_cost_usd{cost_cycle="day",date_end="2022-12-01",date_start="2022-11-30",hostname="doumeng",ip_address="3.3.3.3"} 0.24383561643835616
+vollcloud_cost_usd{cost_cycle="day",date_end="2022-12-01",date_start="2022-11-30",hostname="doumeng",ip_address="3.3.3.3"} 0.40821917808219177
+vollcloud_cost_usd{cost_cycle="day",date_end="2022-12-01",date_start="2022-11-30",hostname="doumeng",ip_address="3.3.3.3"} 0.40821917808219177
+vollcloud_cost_usd{cost_cycle="month",date_end="2022-08-01",date_start="2022-07-21",hostname="doumeng",ip_address="3.3.3.3"} 2.682191780821918
+vollcloud_cost_usd{cost_cycle="month",date_end="2022-09-01",date_start="2022-08-01",hostname="doumeng",ip_address="3.3.3.3"} 7.558904109589041
+vollcloud_cost_usd{cost_cycle="month",date_end="2022-09-01",date_start="2022-08-11",hostname="doumeng",ip_address="3.3.3.3"} 8.572602739726028
+vollcloud_cost_usd{cost_cycle="month",date_end="2022-09-01",date_start="2022-08-19",hostname="doumeng",ip_address="3.3.3.3"} 5.306849315068493
+vollcloud_cost_usd{cost_cycle="month",date_end="2022-09-01",date_start="2022-08-24",hostname="doumeng",ip_address="3.3.3.3"} 3.265753424657534
+vollcloud_cost_usd{cost_cycle="month",date_end="2022-09-01",date_start="2022-08-24",hostname="doumeng",ip_address="3.3.3.3"} 3.265753424657534
+vollcloud_cost_usd{cost_cycle="month",date_end="2022-10-01",date_start="2022-09-19",hostname="doumeng",ip_address="3.3.3.3"} 2.926027397260274
+vollcloud_cost_usd{cost_cycle="month",date_end="2022-10-01",date_start="2022-09-26",hostname="doumeng",ip_address="3.3.3.3"} 1.2191780821917808
+vollcloud_cost_usd{cost_cycle="month",date_end="2022-11-01",date_start="2022-10-01",hostname="doumeng",ip_address="3.3.3.3"} 7.558904109589041
+vollcloud_cost_usd{cost_cycle="month",date_end="2022-11-01",date_start="2022-10-01",hostname="doumeng",ip_address="3.3.3.3"} 12.654794520547945
+vollcloud_cost_usd{cost_cycle="month",date_end="2022-11-01",date_start="2022-10-17",hostname="doumeng",ip_address="3.3.3.3"} 4.068493150684931
+vollcloud_cost_usd{cost_cycle="month",date_end="2022-11-01",date_start="2022-10-17",hostname="doumeng",ip_address="3.3.3.3"} 4.068493150684931
+vollcloud_cost_usd{cost_cycle="year",date_end="2023-08-11",date_start="2022-08-11",hostname="doumeng",ip_address="3.3.3.3"} 149
+vollcloud_cost_usd{cost_cycle="year",date_end="2023-08-19",date_start="2022-08-19",hostname="doumeng",ip_address="3.3.3.3"} 149
+vollcloud_cost_usd{cost_cycle="year",date_end="2023-08-24",date_start="2022-08-24",hostname="doumeng",ip_address="3.3.3.3"} 149
+vollcloud_cost_usd{cost_cycle="year",date_end="2023-09-19",date_start="2022-09-19",hostname="doumeng",ip_address="3.3.3.3"} 89
+vollcloud_cost_usd{cost_cycle="year",date_end="2023-09-26",date_start="2022-09-26",hostname="doumeng",ip_address="3.3.3.3"} 89
+vollcloud_cost_usd{cost_cycle="year",date_end="2023-10-01",date_start="2022-10-01",hostname="doumeng",ip_address="3.3.3.3"} 89
+vollcloud_cost_usd{cost_cycle="year",date_end="2023-10-17",date_start="2022-10-17",hostname="doumeng",ip_address="3.3.3.3"} 99
+vollcloud_cost_usd{cost_cycle="year",date_end="2023-10-17",date_start="2022-10-17",hostname="doumeng",ip_address="3.3.3.3"} 99
+vollcloud_cost_usd{cost_cycle="year",date_end="2024-07-21",date_start="2022-07-21",hostname="doumeng",ip_address="3.3.3.3"} 89
+vollcloud_cost_usd{cost_cycle="year",date_end="2024-08-24",date_start="2022-08-24",hostname="doumeng",ip_address="3.3.3.3"} 149

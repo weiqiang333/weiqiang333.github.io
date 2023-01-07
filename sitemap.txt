@@ -6,6 +6,7 @@ https://weiqiang333.github.io/docs/Operations/
 https://weiqiang333.github.io/docs/Operations/index.html
 https://weiqiang333.github.io/vollcloud-exporter/
 https://weiqiang333.github.io/vollcloud-exporter/index.html
+https://weiqiang333.github.io/vollcloud-exporter/docs/%E7%89%B9%E6%80%A7.md
 https://weiqiang333.github.io/scanPort-exporter/
 https://weiqiang333.github.io/scanPort-exporter/index.html
 https://weiqiang333.github.io/bandwagonhost_cloud_exporter/
